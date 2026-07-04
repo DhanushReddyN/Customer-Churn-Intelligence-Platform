@@ -14,7 +14,7 @@ import os
 
 FASTAPI_URL = os.getenv(
     "FASTAPI_URL",
-    "http://127.0.0.1:8000/predict"
+    "https://customer-churn-intelligence-platform-hco2.onrender.com/predict"
 )
 
 st.title("📊 Customer Churn Prediction System")
